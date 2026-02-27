@@ -11,7 +11,7 @@
     width: 100px;
     height: 60px;
     font-style: normal;
-    margin-left: 1000px;
+    margin-left: 1200px;
 
 }
 #b2{
@@ -25,7 +25,11 @@
     font-style: normal;
     
 }
-@media (max-width:600px) {
+#b1:hover,#b2:hover,#b3:hover{
+    background-color: #dedede;
+    cursor: pointer;
+}
+@media (max-width:360px) {
     #n1{
         background: rgb(250, 246, 246);
         box-sizing: content-box;
@@ -33,7 +37,7 @@
         height: 100px;
     }
     #b1{
-        margin-left: 80px;
+        margin-left: 10px;
     }
     #b1,#b2,#b3{
         width: 90px;
