@@ -29,7 +29,7 @@
     background-color: #dedede;
     cursor: pointer;
 }
-@media (max-width:360px) {
+@media (min-width:360px) {
     #n1{
         background: rgb(250, 246, 246);
         box-sizing: content-box;
